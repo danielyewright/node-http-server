@@ -3,6 +3,7 @@ var http = require("http"),
     path = require("path"),
     fs = require("fs"),
     port = process.argv[2] || 8888;
+    port = 3000;
 
 http.createServer(function(request, response) {
 
@@ -32,7 +33,6 @@ http.createServer(function(request, response) {
       response.end();
     });
   });
-}).listen(3000);
+}).listen(parseInt(port, 10));
 
-// console.log("Static file server running at\n  => http://127.0.0.1:" + port + "/\nCTRL + C to shutdown");
-console.log("Server running at\n  => http://127.0.0.1:3000" + "/\nCTRL + C to shutdown");
+console.log("Server running at http://127.0.0.1:" + port + "/\nCTRL + C to shutdown");
