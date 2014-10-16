@@ -1,3 +1,16 @@
+/*! 
+ * node-http-server v1.0
+ * http://www.github.com/danielyewright/node-http-server/
+ *
+ * Copyright 2014 Daniely Wright and other contributors
+ * Released under the GPLv3 license
+ * http://www.gnu.org/licenses/gpl.html
+ *
+ * Do not sell this as your own work or remove this copyright notice. 
+ *
+ * Date: 10/15/2014
+ */
+
 var http = require("http"); 
 var url = require("url");
 var path = require("path");
