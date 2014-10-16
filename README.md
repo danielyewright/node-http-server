@@ -22,11 +22,10 @@ That's it! Visit your site at [http://127.0.0.1:3000](http://127.0.0.1:3000).
 You can specify the port and default HTML file.
 
 
-** Port **
+**Port**
 
 The default port is `3000`, but can be changed by modifying `var port = process.argv[2] || 3000;`.
 
-
-** Default HMTL file **
+**Default HMTL file**
 
 By default, the server will load `index.html`. To change the default file, modify `if (fs.statSync(filename).isDirectory()) filename += 'index.html';`.
