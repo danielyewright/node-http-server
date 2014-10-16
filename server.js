@@ -11,10 +11,10 @@
  * Date: 10/15/2014
  */
 
-var http = require("http"); 
-var url = require("url");
-var path = require("path");
-var fs = require("fs");
+var http = require("http"), 
+    url = require("url"),
+    path = require("path"),
+    fs = require("fs");
 
 // Specify the port to use, default is 3000
 var port = process.argv[2] || 3000;
