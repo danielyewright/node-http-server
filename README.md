@@ -29,3 +29,9 @@ The default port is `3000`, but can be changed by modifying `var port = process.
 **Default HMTL file**
 
 By default, the server will load `index.html`. To change the default file, modify `if (fs.statSync(filename).isDirectory()) filename += 'index.html';`.
+
+#### Changelog ####
+
+**October 15, 2014**
+
+- Initial release
